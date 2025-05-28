@@ -177,7 +177,7 @@ export default function Portfolio() {
             </div>
 
             <div className="hidden md:flex space-x-8">
-              {["home", "about", "skills", "experience", "projects"].map((item) => (
+              {["home", "about", "skills", "projects"].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}
