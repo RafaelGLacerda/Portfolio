@@ -47,6 +47,7 @@ export default function Portfolio() {
     { name: "JavaScript", level: 85, category: "Frontend" },
     { name: "Node.js", level: 85, category: "Backend" },
     { name: "Python", level: 70, category: "Backend" },
+    { name: "Java", level: 70, category: "Backend" },
     { name: "PostgreSQL", level: 50, category: "Database" },
     { name: "MongoDB", level: 50, category: "Database" },
     { name: "GraphQL", level: 75, category: "API" },
@@ -386,7 +387,7 @@ export default function Portfolio() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {["Frontend", "Backend", "Database", "Language", "API"].map((category) => (
+            {["Frontend", "Backend", "Database"].map((category) => (
               <Card
                 key={category}
                 className={`${darkMode ? "bg-gray-800 border-gray-700" : "bg-white"} hover:shadow-xl transition-all duration-300`}
