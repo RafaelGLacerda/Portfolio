@@ -44,82 +44,111 @@ export default function Portfolio() {
   const skills = [
     { name: "React", level: 80, category: "Frontend" },
     { name: "Node.js", level: 85, category: "Frontend" },
-    { name: "TypeScript", level: 85, category: "Language" },
+    { name: "JavaScript", level: 85, category: "Frontend" },
     { name: "Node.js", level: 85, category: "Backend" },
-    { name: "Python", level: 70, category: "Language" },
-    { name: "PostgreSQL", level: 70, category: "Database" },
-    { name: "MongoDB", level: 60, category: "Database" },
+    { name: "Python", level: 70, category: "Backend" },
+    { name: "PostgreSQL", level: 50, category: "Database" },
+    { name: "MongoDB", level: 50, category: "Database" },
     { name: "GraphQL", level: 75, category: "API" },
-  ]
-
-  const experiences = [
-    {
-      title: "Backend Developer",
-      company: "SINART",
-      period: "2024",
-      description:
-        "Entrei como estagiario e adquiri uma grande experiencia",
-      technologies: ["Node.js", "Postman", "TypeScript", "API"],
-    },
-    {
-      title: "Full-Stack Developer",
-      company: "SINART",
-      period: "2024",
-      description:
-        "Desenvolvi aplicações web completas do zero, implementando features para o crescimento da empresa.",
-      technologies: ["HTML5", "PHP", "TypeScript", "React"],
-    },
-    {
-      title: "Frontend Developer",
-      company: "SINART",
-      period: "2024",
-      description: "Criei interfaces responsivas e interativas, focando em performance e experiência do usuário.",
-      technologies: ["TailWind", "HTML5", "React", "Figma"],
-    },
   ]
 
   const projects = [
     {
-      title: "E-commerce Platform",
+      title: "EasyBusiness",
+      description: "EasyBusiness é uma plataforma de comércio virtual que conecta pessoas e empresas. Usuários podem se cadastrar como Pessoa Física ou Empresa, anunciar e vender produtos, realizar compras, acompanhar pedidos e muito mais.",
+      tech: ["HTML5", "CSS", "JavaScript"],
+      image: "/easy.png?height=300&width=400",
+      github: "https://github.com/RafaelGLacerda/EasyBuniness",
+      demo: "https://easybuniness.onrender.com/",
+      featured: true,
+    },
+    {
+      title: "Store Project",
       description:
         "Plataforma completa de e-commerce com sistema de produtos, carrinho integrados, dashboard demonstrativo com um CSS robusto feito em React.",
       tech: ["Node.js", "React", "Json"],
       image: "/store.png",
-      github: "https://github.com/robsongabrielalencar/app-cordova",
+      github: "https://github.com/RafaelGLacerda/StoreProject",
       demo: "https://rafaelglacerda.github.io/StoreProject/",
-      featured: true,
-    },
-    {
-      title: "Maze Game",
-      description: "Projeto em JS/HTML/CSS para um jogo de labirinto com autobot backtraking.",
-      tech: ["HTML5", "CSS", "JavaScript"],
-      image: "/mazegame.png?height=300&width=400",
-      github: "https://github.com/robsongabrielalencar/A3-estrutura-de-dados",
-      demo: "https://a3-estrutura-de-dados.onrender.com/",
-      featured: true,
-    },
-    {
-      title: "Jogo da Velha Java",
-      description: "Jogo clássico com lógica para dois jogadores.",
-      tech: ["Java"],
-      image: "/velha.png?height=300&width=400",
-      github: "https://github.com/robsongabrielalencar/Jogo_da_Velha_Java",
       featured: false,
     },
     {
-      title: "Ponto de Venda",
-      description: "Gerenciamento de vendas, produtos e estoque.",
-      tech: ["Java"],
-      image: "/venda.png?height=300&width=400",
-      github: "https://github.com/robsongabrielalencar/ponto-de-venda",
+      title: "ReciclaSSA",
+      description: "Este é um site interativo voltado para o agendamento de coletas de recicláveis. O sistema possui funcionalidades para usuários comuns e contas administrativas (ADM), cada um com permissões específicas.",
+      tech: ["HTML5, CSS, Node.js"],
+      image: "/recicla.png?height=300&width=400",
+      github: "https://a3-2lsq.onrender.com/",
+      demo: "https://reciclassa.onrender.com/",
+      featured: true,
+    },
+    {
+      title: "VooEmbarcar",
+      description: "Sistema real que permite ao usuário a cotação de voos. A interface é composta por um formulário onde o usuário pode inserir informações como origem, destino, data e número de passageiros. Ao enviar o formulário, o sistema exibe uma cotação com base nos dados fornecidos.",
+      tech: ["HTML5, CSS, JavaScript"],
+      image: "/voo.png?height=300&width=400",
+      github: "https://github.com/RafaelGLacerda/vooembarcar",
+      demo: "https://vooembarcar.netlify.app/",
       featured: false,
     },
     {
-      title: "Control Xbox 360 Python",
-      description: "Controle de eventos do controle Xbox 360 via Python.",
+      title: "Agendamento Saude",
+      description: "Este projeto é um sistema simples para agendamento de atendimentos em postos de saúde. Permite ao usuário escolher data e horário disponíveis, preencher seus dados e realizar o agendamento. Após o agendamento, o usuário pode visualizar seu histórico.",
+      tech: ["HTML5, CSS, Node.js"],
+      image: "/agendamento.png?height=300&width=400",
+      github: "https://github.com/RafaelGLacerda/saude",
+      demo: "https://agendamentosus.onrender.com/",
+      featured: false,
+    },
+    {
+      title: "Tasks",
+      description: "Este é um projeto de gerenciamento de tarefas com sistema de login/cadastro.",
+      tech: ["HTML5, CSS, Node.js"],
+      image: "/tasks.png?height=300&width=400",
+      github: "https://github.com/RafaelGLacerda/Tasks",
+      demo: "https://tasks-hbdt.onrender.com/",
+      featured: false,
+    },
+    {
+      title: "Movie Library",
+      description: "Um projeto de biblioteca de filmes com interface moderna e funcionalidades de busca, feito com React.",
+      tech: ["HTML5, CSS, Node.js"],
+      image: "/movie.png?height=300&width=400",
+      github: "https://github.com/RafaelGLacerda/Movies-Library",
+      demo: "https://yourmovielibrary.netlify.app/",
+      featured: false,
+    },
+    {
+      title: "Galeria",
+      description: "Este é um site simples para upload e visualização de vídeos. Você pode enviar um vídeo com um nome personalizado, que será usado para buscá-lo facilmente na galeria.",
+      tech: ["HTML5, CSS, Node.js"],
+      image: "/galeria.png?height=300&width=400",
+      github: "https://github.com/RafaelGLacerda/GaleriaRender",
+      demo: "https://galeriarender-qnwf.onrender.com/",
+      featured: false,
+    },
+    {
+      title: "NeoBank",
+      description: "NeoBank é um banco virtual fictício, com uma interface moderna, suporte a modo claro/escuro e funcionalidades completas para gerenciamento financeiro.",
+      tech: ["HTML5, CSS, Node.js"],
+      image: "/bank.png?height=300&width=400",
+      github: "https://github.com/RafaelGLacerda/NeoBank",
+      demo: "https://neobank-evh5.onrender.com/",
+      featured: false,
+    },
+    {
+      title: "PythonPixel",
+      description: "PixelPython is a 2D action RPG game inspired by the Soulslike genre, developed using Python and Pygame.",
       tech: ["Python"],
-      image: "/xbox.png?height=300&width=400",
-      github: "https://github.com/robsongabrielalencar/control-xbox360-python",
+      image: "/pixel.png?height=300&width=400",
+      github: "https://github.com/RafaelGLacerda/PixelPython",
+      featured: false,
+    },
+    {
+      title: "Costs",
+      description: "O COSTS é um sistema para gerenciamento de projetos, que permite criar, editar e excluir projetos e serviços de forma prática.",
+      tech: ["HTML5, React, Node.js"],
+      image: "/costs.png?height=300&width=400",
+      github: "https://github.com/RafaelGLacerda/costs_project",
       featured: false,
     },
   ]
@@ -143,7 +172,7 @@ export default function Portfolio() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="font-bold text-xl">
-              <span className={`${darkMode ? "text-white" : "text-gray-900"}`}>GabrielAlencar</span>
+              <span className={`${darkMode ? "text-white" : "text-gray-900"}`}>RafaelLacerda</span>
               <span className="text-blue-600">.netlify.app</span>
             </div>
 
@@ -169,7 +198,7 @@ export default function Portfolio() {
                           ? "Experiência"
                           : item === "projects"
                             ? "Projetos"
-                            : "Contato"}
+                            : ""}
                 </button>
               ))}
             </div>
@@ -193,16 +222,17 @@ export default function Portfolio() {
             <div className="space-y-8">
               <div className="space-y-4">
                 <h1 className={`text-5xl md:text-7xl font-bold ${darkMode ? "text-white" : "text-gray-900"}`}>
-                  Gabriel
-                  <span className="block text-blue-600">Alencar</span>
+                  Rafael
+                  <span className="block text-blue-600">Lacerda</span>
                 </h1>
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
                   <p className={`text-xl ${darkMode ? "text-gray-300" : "text-gray-600"}`}>Desenvolvedor Full-Stack</p>
                 </div>
-                <p className={`text-lg leading-relaxed ${darkMode ? "text-gray-400" : "text-gray-600"}`}>
-                  Transformo ideias em experiências digitais excepcionais. Especializado em criar soluções web modernas,
-                  escaláveis e centradas no usuário com mais de 4 anos de experiência em estudos.
+                <p className={`text-lg leading-relaxed ${darkMode ? "text-gray-400" : "text-gray-600"}`}
+                 style={{ textAlign: "justify" }}>
+                  Com mais de 4 anos de dedicação e estudo em desenvolvimento, sou especializado em criar soluções modernas, escaláveis e centradas no usuário,
+                  unindo tecnologia e design para entregar resultados de alto nível, conheça meu trabalho.
                 </p>
               </div>
 
@@ -220,9 +250,9 @@ export default function Portfolio() {
 
               <div className="flex space-x-6">
                 {[
-                  { icon: <Github className="w-5 h-5" />, href: "https://github.com/robsongabrielalencar" },
-                  { icon: <Linkedin className="w-5 h-5" />, href: "https://www.linkedin.com/in/robson-gabriel-alencar-souza-57b70528b/" },
-                  { icon: <Mail className="w-5 h-5" />, href: "mailto:gabrielrps89@gmail.com" },
+                  { icon: <Github className="w-5 h-5" />, href: "https://github.com/RafaelGLacerda" },
+                  { icon: <Linkedin className="w-5 h-5" />, href: "https://www.linkedin.com/in/rafael-lacerda-47513526a/" },
+                  { icon: <Mail className="w-5 h-5" />, href: "mailto:Rafaellacerda2004@gmail.com" },
                 ].map((social, index) => (
                   <a
                     key={index}
@@ -245,8 +275,8 @@ export default function Portfolio() {
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full animate-pulse opacity-20"></div>
                 <div className="absolute inset-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
                 <Image
-                  src="/gabriel2.jpg"
-                  alt="Gabriel Alencar"
+                  src="/Rafael.jpg"
+                  alt="Rafael Lacerda"
                   width={300}
                   height={300}
                   className="absolute inset-8 w-64 h-64 rounded-full object-cover border-4 border-white shadow-2xl"
@@ -276,20 +306,21 @@ export default function Portfolio() {
                 className={`text-lg leading-relaxed ${darkMode ? "text-gray-300" : "text-gray-600"}`}
                 style={{ textAlign: "justify" }}
               >
-                Sou Robson Gabriel Alencar Souza, estudante de Ciência da Computação na UNIFACS, atualmente no 5º semestre. Tenho como objetivo me tornar um desenvolvedor fullstack, com atuação no frontend e backend.
-                Estudo Java, JavaScript, HTML e CSS, com ênfase em Java para backend, além de ter interesse em desenvolvimento mobile.
+                Sou Rafael Pereira Grigorio de Lacerda, estudante do 5º semestre de Ciência da Computação e Análise e Desenvolvimento de Sistemas pela UNIFACS. 
+                Tenho como objetivo me tornar um desenvolvedor fullstack, atuando tanto no frontend quanto no backend.
               </p>
               <p
                 className={`text-lg leading-relaxed ${darkMode ? "text-gray-300" : "text-gray-600"}`}
                 style={{ textAlign: "justify" }}
               >
-                Participei de projetos como jogos em JavaScript e sistemas de e-commerce, o que fortaleceu minhas habilidades técnicas. Tenho bons conhecimentos em HTML5 e CSS3, focando na criação de interfaces acessíveis e
-                responsivas. Pretendo concluir minha graduação até o final de 2026 e seguir evoluindo profissionalmente, sempre buscando soluções eficientes e inovadoras.
+                Atualmente, estudo Java, JavaScript, HTML e CSS, com foco especial em Java para o desenvolvimento backend. Também tenho interesse em desenvolvimento mobile. 
+                Já participei de projetos como jogos em JavaScript e sistemas de e-commerce, experiências que contribuíram significativamente para o aprimoramento das minhas habilidades técnicas.
+                Possuo bons conhecimentos em HTML5 e CSS3, com atenção especial à criação de interfaces acessíveis, modernas e responsivas.
               </p>
 
               <div className="grid grid-cols-2 gap-6 mt-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">15+</div>
+                  <div className="text-3xl font-bold text-blue-600">25+</div>
                   <div className={`text-sm ${darkMode ? "text-gray-400" : "text-gray-600"}`}>Projetos Concluídos</div>
                 </div>
                 <div className="text-center">
@@ -393,54 +424,6 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Experience Section */}
-      <section id="experience" className={`py-20 ${darkMode ? "bg-gray-800" : "bg-white"}`}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className={`text-4xl font-bold mb-4 ${darkMode ? "text-white" : "text-gray-900"}`}>Experiência</h2>
-            <div className="w-20 h-1 bg-blue-600 mx-auto"></div>
-          </div>
-
-          <div className="relative">
-            <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-blue-600"></div>
-            {experiences.map((exp, index) => (
-              <div
-                key={index}
-                className={`relative flex items-center mb-12 ${index % 2 === 0 ? "justify-start" : "justify-end"}`}
-              >
-                <div className={`w-1/2 ${index % 2 === 0 ? "pr-8" : "pl-8"}`}>
-                  <Card
-                    className={`${darkMode ? "bg-gray-700 border-gray-600" : "bg-gray-50"} hover:shadow-lg transition-all duration-300`}
-                  >
-                    <CardContent className="p-6">
-                      <div className="flex items-center mb-2">
-                        <Calendar className="w-4 h-4 text-blue-600 mr-2" />
-                        <span className={`text-sm ${darkMode ? "text-gray-400" : "text-gray-600"}`}>{exp.period}</span>
-                      </div>
-                      <h3 className={`text-xl font-semibold mb-1 ${darkMode ? "text-white" : "text-gray-900"}`}>
-                        {exp.title}
-                      </h3>
-                      <p className="text-blue-600 font-medium mb-3">{exp.company}</p>
-                      <p className={`text-sm mb-4 ${darkMode ? "text-gray-300" : "text-gray-600"}`}>
-                        {exp.description}
-                      </p>
-                      <div className="flex flex-wrap gap-2">
-                        {exp.technologies.map((tech, techIndex) => (
-                          <Badge key={techIndex} variant="secondary" className="text-xs">
-                            {tech}
-                          </Badge>
-                        ))}
-                      </div>
-                    </CardContent>
-                  </Card>
-                </div>
-                <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-600 rounded-full border-4 border-white"></div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Projects Section */}
       <section id="projects" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -464,7 +447,7 @@ export default function Portfolio() {
                   >
                     <div className="relative overflow-hidden">
                       <Image
-                        src={project.image || "/store.png"}
+                        src={project.image}
                         alt={project.title}
                         width={400}
                         height={300}
@@ -565,10 +548,10 @@ export default function Portfolio() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className={`${darkMode ? "text-gray-400" : "text-gray-600"}`}>
-              © 2024 Gabriel Alencar. Todos os direitos reservados.
+              © 2025 Rafael Lacerda. Todos os direitos reservados.
             </p>
             <p className={`mt-2 text-sm ${darkMode ? "text-gray-500" : "text-gray-500"}`}>
-              Desenvolvido com  usando React e Tailwind CSS
+              Desenvolvido com  usando React, Next.js e Tailwind CSS
             </p>
           </div>
         </div>
