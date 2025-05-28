@@ -194,8 +194,6 @@ export default function Portfolio() {
                       ? "Sobre"
                       : item === "skills"
                         ? "Habilidades"
-                        : item === "experience"
-                          ? "Experiência"
                           : item === "projects"
                             ? "Projetos"
                             : ""}
