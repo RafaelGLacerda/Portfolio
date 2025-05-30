@@ -73,22 +73,12 @@ export default function Portfolio() {
       featured: true,
     },
     {
-      title: "EasyBusiness",
-      description: "EasyBusiness é uma plataforma de comércio virtual que conecta pessoas e empresas.",
-      tech: ["HTML5", "CSS", "JavaScript"],
-      image: "/easy.png?height=300&width=400",
-      github: "https://github.com/RafaelGLacerda/EasyBuniness",
-      demo: "https://easybuniness.onrender.com/",
-      featured: false,
-    },
-    {
-      title: "Store Project",
-      description:
-        "Plataforma completa de e-commerce com sistema de produtos, carrinho integrados, dashboard demonstrativo com um CSS robusto feito em React.",
-      tech: ["Node.js", "React", "Json"],
-      image: "/store.png",
-      github: "https://github.com/RafaelGLacerda/StoreProject",
-      demo: "https://rafaelglacerda.github.io/StoreProject/",
+      title: "Costs",
+      description: "O COSTS é um sistema para gerenciamento de projetos.",
+      tech: ["TypeScript, TailWind, Next.js"],
+      image: "/costs.png?height=300&width=400",
+      github: "https://github.com/RafaelGLacerda/costs_project",
+      demo: "https://costsservice.onrender.com/",
       featured: false,
     },
     {
@@ -100,13 +90,13 @@ export default function Portfolio() {
       demo: "https://reciclassa.onrender.com/",
       featured: false,
     },
-        {
-      title: "Costs",
-      description: "O COSTS é um sistema para gerenciamento de projetos.",
-      tech: ["HTML5, React, Node.js"],
-      image: "/costs.png?height=300&width=400",
-      github: "https://github.com/RafaelGLacerda/costs_project",
-      demo: "https://costsservice.onrender.com/",
+    {
+      title: "EasyBusiness",
+      description: "EasyBusiness é uma plataforma de comércio virtual que conecta pessoas e empresas.",
+      tech: ["HTML5", "CSS", "JavaScript"],
+      image: "/easy.png?height=300&width=400",
+      github: "https://github.com/RafaelGLacerda/EasyBuniness",
+      demo: "https://easybuniness.onrender.com/",
       featured: false,
     },
     {
@@ -116,6 +106,16 @@ export default function Portfolio() {
       image: "/voo.png?height=300&width=400",
       github: "https://github.com/RafaelGLacerda/vooembarcar",
       demo: "https://vooembarcar.netlify.app/",
+      featured: false,
+    },
+    {
+      title: "Store Project",
+      description:
+        "Plataforma completa de e-commerce com sistema de produtos, carrinho integrados, dashboard demonstrativo com um CSS robusto feito em React.",
+      tech: ["Node.js", "React", "Json"],
+      image: "/store.png",
+      github: "https://github.com/RafaelGLacerda/StoreProject",
+      demo: "https://rafaelglacerda.github.io/StoreProject/",
       featured: false,
     },
     {
