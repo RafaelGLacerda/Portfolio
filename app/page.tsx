@@ -76,7 +76,7 @@ export default function Portfolio() {
       title: "Costs",
       description: "O COSTS é um sistema para gerenciamento de projetos.",
       tech: ["TypeScript, TailWind, Next.js"],
-      image: "/costs.png?height=300&width=400",
+      image: "/costsnew.png?height=300&width=400",
       github: "https://github.com/RafaelGLacerda/costs_project",
       demo: "https://costsservice.onrender.com/",
       featured: false,
