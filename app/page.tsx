@@ -63,14 +63,23 @@ export default function Portfolio() {
       demo: "https://assistentechatbotv0.onrender.com/",
       featured: true,
     },
-           {
+    }
+      title: "L5M",
+      description: "Site para armazenamento de videos até 5 minutos.",
+      tech: ["Next.js", "TypeScript"],
+      image: "/L5M.png?height=300&width=400",
+      github: "https://github.com/RafaelGLacerda/L5M",
+      demo: "https://l5m.onrender.com/",
+      featured: true,
+    },
+    {
       title: "StoreManager",
       description: "é uma aplicação web para gerenciamento completo de lojas.",
       tech: ["Next.js", "TypeScript"],
       image: "/gestao.png?height=300&width=400",
       github: "https://github.com/RafaelGLacerda/StoreManager", 
       demo: "https://storemanager-ztwx.onrender.com/",
-      featured: true,
+      featured: false,
     },
     {
       title: "Costs",
@@ -143,14 +152,6 @@ export default function Portfolio() {
       image: "/movie.png?height=300&width=400",
       github: "https://github.com/RafaelGLacerda/Movies-Library",
       demo: "https://yourmovielibrary.netlify.app/",
-      featured: false,
-    },
-    {
-      title: "PythonPixel",
-      description: "PixelPython is a 2D action RPG game inspired by the Soulslike genre, developed using Python and Pygame.",
-      tech: ["Python"],
-      image: "/pixel.png?height=300&width=400",
-      github: "https://github.com/RafaelGLacerda/PixelPython",
       featured: false,
     },
   ]
