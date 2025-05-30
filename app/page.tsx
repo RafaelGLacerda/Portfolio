@@ -68,8 +68,8 @@ export default function Portfolio() {
       description: "é uma aplicação web para gerenciamento completo de lojas.",
       tech: ["Next.js", "TypeScript"],
       image: "/gestao.png?height=300&width=400",
-      github: "https://storemanager-ztwx.onrender.com/",
-      demo: "https://github.com/RafaelGLacerda/StoreManager",
+      github: "https://github.com/RafaelGLacerda/StoreManager", 
+      demo: "https://storemanager-ztwx.onrender.com/",
       featured: true,
     },
     {
