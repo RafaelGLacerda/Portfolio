@@ -70,7 +70,7 @@ export default function Portfolio() {
       image: "/L5M.png?height=300&width=400",
       github: "https://github.com/RafaelGLacerda/L5M", 
       demo: "https://l5m.onrender.com/",
-      featured: false,
+      featured: true,
     }, 
     {
       title: "StoreManager",
