@@ -56,7 +56,7 @@ export default function Portfolio() {
   const projects = [
        {
       title: "ChatBot IA",
-      description: "Uma IA chatbot que responde qualquer coisa, conversa, cria codigos e etc",
+      description: "Uma IA chatbot que responde qualquer coisa, conversa, cria codigos e etc.",
       tech: ["Next.js", "TypeScript", "OpenRouter"],
       image: "/icone5.png?height=300&width=400",
       github: "https://github.com/RafaelGLacerda/chatbot",
@@ -65,7 +65,7 @@ export default function Portfolio() {
     },
            {
       title: "StoreManager",
-      description: "é uma aplicação web para gerenciamento completo de lojas",
+      description: "é uma aplicação web para gerenciamento completo de lojas.",
       tech: ["Next.js", "TypeScript"],
       image: "/gestao.png?height=300&width=400",
       github: "https://storemanager-ztwx.onrender.com/",
@@ -74,7 +74,7 @@ export default function Portfolio() {
     },
     {
       title: "EasyBusiness",
-      description: "EasyBusiness é uma plataforma de comércio virtual que conecta pessoas e empresas. Usuários podem se cadastrar como Pessoa Física ou Empresa, anunciar e vender produtos, realizar compras, acompanhar pedidos e muito mais.",
+      description: "EasyBusiness é uma plataforma de comércio virtual que conecta pessoas e empresas.",
       tech: ["HTML5", "CSS", "JavaScript"],
       image: "/easy.png?height=300&width=400",
       github: "https://github.com/RafaelGLacerda/EasyBuniness",
@@ -93,7 +93,7 @@ export default function Portfolio() {
     },
     {
       title: "ReciclaSSA",
-      description: "Este é um site interativo voltado para o agendamento de coletas de recicláveis. O sistema possui funcionalidades para usuários comuns e contas administrativas (ADM), cada um com permissões específicas.",
+      description: "Este é um site interativo voltado para o agendamento de coletas de recicláveis.",
       tech: ["HTML5, CSS, Node.js"],
       image: "/recicla.png?height=300&width=400",
       github: "https://a3-2lsq.onrender.com/",
@@ -102,7 +102,7 @@ export default function Portfolio() {
     },
     {
       title: "VooEmbarcar",
-      description: "Sistema real que permite ao usuário a cotação de voos. A interface é composta por um formulário onde o usuário pode inserir informações como origem, destino, data e número de passageiros. Ao enviar o formulário, o sistema exibe uma cotação com base nos dados fornecidos.",
+      description: "Sistema real que permite ao usuário a cotação de voos.",
       tech: ["HTML5, CSS, JavaScript"],
       image: "/voo.png?height=300&width=400",
       github: "https://github.com/RafaelGLacerda/vooembarcar",
@@ -111,7 +111,7 @@ export default function Portfolio() {
     },
     {
       title: "Agendamento Saude",
-      description: "Este projeto é um sistema simples para agendamento de atendimentos em postos de saúde. Permite ao usuário escolher data e horário disponíveis, preencher seus dados e realizar o agendamento. Após o agendamento, o usuário pode visualizar seu histórico.",
+      description: "Este projeto é um sistema simples para agendamento de atendimentos em postos de saúde.",
       tech: ["HTML5, CSS, Node.js"],
       image: "/agendamento.png?height=300&width=400",
       github: "https://github.com/RafaelGLacerda/saude",
@@ -138,7 +138,7 @@ export default function Portfolio() {
     },
     {
       title: "Galeria",
-      description: "Este é um site simples para upload e visualização de vídeos. Você pode enviar um vídeo com um nome personalizado, que será usado para buscá-lo facilmente na galeria.",
+      description: "Este é um site simples para upload e visualização de vídeos.",
       tech: ["HTML5, CSS, Node.js"],
       image: "/galeria.png?height=300&width=400",
       github: "https://github.com/RafaelGLacerda/GaleriaRender",
@@ -147,7 +147,7 @@ export default function Portfolio() {
     },
     {
       title: "NeoBank",
-      description: "NeoBank é um banco virtual fictício, com uma interface moderna, suporte a modo claro/escuro e funcionalidades completas para gerenciamento financeiro.",
+      description: "NeoBank é um banco virtual fictício.",
       tech: ["HTML5, CSS, Node.js"],
       image: "/bank.png?height=300&width=400",
       github: "https://github.com/RafaelGLacerda/NeoBank",
@@ -164,7 +164,7 @@ export default function Portfolio() {
     },
     {
       title: "Costs",
-      description: "O COSTS é um sistema para gerenciamento de projetos, que permite criar, editar e excluir projetos e serviços de forma prática.",
+      description: "O COSTS é um sistema para gerenciamento de projetos.",
       tech: ["HTML5, React, Node.js"],
       image: "/costs.png?height=300&width=400",
       github: "https://github.com/RafaelGLacerda/costs_project",
