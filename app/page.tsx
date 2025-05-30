@@ -54,7 +54,7 @@ export default function Portfolio() {
   ]
 
   const projects = [
-       {
+      {
       title: "ChatBot IA",
       description: "Uma IA chatbot que responde qualquer coisa, conversa, cria codigos e etc.",
       tech: ["Next.js", "TypeScript", "OpenRouter"],
@@ -63,15 +63,15 @@ export default function Portfolio() {
       demo: "https://assistentechatbotv0.onrender.com/",
       featured: true,
     },
-    }
+    {
       title: "L5M",
       description: "Site para armazenamento de videos até 5 minutos.",
       tech: ["Next.js", "TypeScript"],
       image: "/L5M.png?height=300&width=400",
-      github: "https://github.com/RafaelGLacerda/L5M",
+      github: "https://github.com/RafaelGLacerda/L5M", 
       demo: "https://l5m.onrender.com/",
-      featured: true,
-    },
+      featured: false,
+    }, 
     {
       title: "StoreManager",
       description: "é uma aplicação web para gerenciamento completo de lojas.",
