@@ -54,6 +54,24 @@ export default function Portfolio() {
   ]
 
   const projects = [
+       {
+      title: "ChatBot IA",
+      description: "Uma IA chatbot que responde qualquer coisa, conversa, cria codigos e etc",
+      tech: ["Next.js", "TypeScript", "OpenRouter"],
+      image: "/icone5.png?height=300&width=400",
+      github: "https://github.com/RafaelGLacerda/chatbot",
+      demo: "https://assistentechatbotv0.onrender.com/",
+      featured: true,
+    },
+           {
+      title: "StoreManager",
+      description: "é uma aplicação web para gerenciamento completo de lojas",
+      tech: ["Next.js", "TypeScript"],
+      image: "/gestao.png?height=300&width=400",
+      github: "https://storemanager-ztwx.onrender.com/",
+      demo: "https://github.com/RafaelGLacerda/StoreManager",
+      featured: true,
+    },
     {
       title: "EasyBusiness",
       description: "EasyBusiness é uma plataforma de comércio virtual que conecta pessoas e empresas. Usuários podem se cadastrar como Pessoa Física ou Empresa, anunciar e vender produtos, realizar compras, acompanhar pedidos e muito mais.",
@@ -61,7 +79,7 @@ export default function Portfolio() {
       image: "/easy.png?height=300&width=400",
       github: "https://github.com/RafaelGLacerda/EasyBuniness",
       demo: "https://easybuniness.onrender.com/",
-      featured: true,
+      featured: false,
     },
     {
       title: "Store Project",
@@ -80,7 +98,7 @@ export default function Portfolio() {
       image: "/recicla.png?height=300&width=400",
       github: "https://a3-2lsq.onrender.com/",
       demo: "https://reciclassa.onrender.com/",
-      featured: true,
+      featured: false,
     },
     {
       title: "VooEmbarcar",
