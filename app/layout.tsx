@@ -6,8 +6,8 @@ export const metadata: Metadata = {
     icons: {
     icon: '/icone.png',
   },
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  description: 'Meu Portfolio',
+  generator: 'Rafael Lacerda',
 }
 
 export default function RootLayout({
