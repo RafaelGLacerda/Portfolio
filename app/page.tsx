@@ -71,7 +71,7 @@ export default function Portfolio() {
       description: "Sistema completo para gestão de negócios na parte financeira",
       tech: ["Next.js", "TypeScript", "FireBase"],
       image: "/manage.png?height=300&width=400",
-      demo: "https://assistentechatbotv0.onrender.com/",
+      demo: "https://bmanagement.vercel.app/",
       featured: true,
     },
     {
