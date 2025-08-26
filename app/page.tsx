@@ -42,15 +42,16 @@ export default function Portfolio() {
   }, [])
 
   const skills = [
+    { name: "JavaScript", level: 75, category: "Backend" },
+    { name: "Node.js", level: 75, category: "Backend" },
+    { name: "Python", level: 68, category: "Backend" },
+    { name: "Java", level: 60, category: "Backend" },
+    { name: "Next.js", level: 65, category: "Backend" },
+    { name: "FireBase", level: 50, category: "Database" },
+    { name: "MongoDB", level: 60, category: "Database" },
+    { name: "TypeScript", level: 72, category: "Frontend" },
+     { name: "Tailwind", level: 79, category: "Frontend" },
     { name: "React", level: 80, category: "Frontend" },
-    { name: "Node.js", level: 85, category: "Frontend" },
-    { name: "JavaScript", level: 85, category: "Frontend" },
-    { name: "Node.js", level: 85, category: "Backend" },
-    { name: "Python", level: 70, category: "Backend" },
-    { name: "Java", level: 70, category: "Backend" },
-    { name: "PostgreSQL", level: 50, category: "Database" },
-    { name: "MongoDB", level: 50, category: "Database" },
-    { name: "GraphQL", level: 75, category: "API" },
   ]
 
   const projects = [
@@ -64,13 +65,22 @@ export default function Portfolio() {
       featured: true,
     },
     {
+      title: "Gestão de Negócios",
+      description: "Sistema completo para Gestão de Negócios na parte financeira",
+      tech: ["Next.js", "TypeScript", "OpenRouter"],
+      image: "/icone5.png?height=300&width=400",
+      github: "https://github.com/RafaelGLacerda/chatbot",
+      demo: "https://assistentechatbotv0.onrender.com/",
+      featured: true,
+    },
+    {
       title: "L5M",
       description: "Site para armazenamento de videos até 5 minutos.",
       tech: ["Next.js", "TypeScript"],
       image: "/L5M.png?height=300&width=400",
       github: "https://github.com/RafaelGLacerda/L5M", 
       demo: "https://l5m.onrender.com/",
-      featured: true,
+      featured: false,
     }, 
     {
       title: "StoreManager",
@@ -88,24 +98,6 @@ export default function Portfolio() {
       image: "/costsnew.png?height=300&width=400",
       github: "https://github.com/RafaelGLacerda/Costs",
       demo: "https://costsservice.onrender.com/",
-      featured: false,
-    },
-    {
-      title: "ReciclaSSA",
-      description: "Este é um site interativo voltado para o agendamento de coletas de recicláveis.",
-      tech: ["HTML5, CSS, Node.js"],
-      image: "/recicla.png?height=300&width=400",
-      github: "https://github.com/RafaelGLacerda/A3",
-      demo: "https://reciclassa.onrender.com/",
-      featured: false,
-    },
-    {
-      title: "EasyBusiness",
-      description: "EasyBusiness é uma plataforma de comércio virtual que conecta pessoas e empresas.",
-      tech: ["HTML5", "CSS", "JavaScript"],
-      image: "/easy.png?height=300&width=400",
-      github: "https://github.com/RafaelGLacerda/EasyBuniness",
-      demo: "https://easybuniness.onrender.com/",
       featured: false,
     },
     {
@@ -128,12 +120,21 @@ export default function Portfolio() {
       featured: false,
     },
     {
-      title: "Agendamento Saude",
-      description: "Este projeto é um sistema simples para agendamento de atendimentos em postos de saúde.",
+      title: "EasyBusiness",
+      description: "EasyBusiness é uma plataforma de comércio virtual que conecta pessoas e empresas.",
+      tech: ["HTML5", "CSS", "JavaScript"],
+      image: "/easy.png?height=300&width=400",
+      github: "https://github.com/RafaelGLacerda/EasyBuniness",
+      demo: "https://easybuniness.onrender.com/",
+      featured: false,
+    },
+     {
+      title: "ReciclaSSA",
+      description: "Este é um site interativo voltado para o agendamento de coletas de recicláveis.",
       tech: ["HTML5, CSS, Node.js"],
-      image: "/agendamento.png?height=300&width=400",
-      github: "https://github.com/RafaelGLacerda/saude",
-      demo: "https://agendamentosus.onrender.com/",
+      image: "/recicla.png?height=300&width=400",
+      github: "https://github.com/RafaelGLacerda/A3",
+      demo: "https://reciclassa.onrender.com/",
       featured: false,
     },
     {
@@ -254,7 +255,7 @@ export default function Portfolio() {
               <div className="flex space-x-6">
                 {[
                   { icon: <Github className="w-5 h-5" />, href: "https://github.com/RafaelGLacerda" },
-                  { icon: <Linkedin className="w-5 h-5" />, href: "https://www.linkedin.com/in/rafael-lacerda-47513526a/" },
+                  { icon: <Linkedin className="w-5 h-5" />, href: "https://www.linkedin.com/in/rafael-lacerda" },
                   { icon: <Mail className="w-5 h-5" />, href: "mailto:Rafaellacerda2004@gmail.com" },
                 ].map((social, index) => (
                   <a
@@ -309,16 +310,15 @@ export default function Portfolio() {
                 className={`text-lg leading-relaxed ${darkMode ? "text-gray-300" : "text-gray-600"}`}
                 style={{ textAlign: "justify" }}
               >
-                Sou Rafael Pereira Grigorio de Lacerda, estudante do 5º semestre de Ciência da Computação e Análise e Desenvolvimento de Sistemas pela UNIFACS. 
-                Tenho como objetivo me tornar um desenvolvedor fullstack, atuando tanto no frontend quanto no backend.
+                Sou Rafael Pereira Grigorio de Lacerda, desenvolvedor em formação, com graduação em Análise e Desenvolvimento de Sistemas (conclusão em 2025.1) e 
+                atualmente cursando Ciência da Computação pela UNIFACS.
               </p>
               <p
                 className={`text-lg leading-relaxed ${darkMode ? "text-gray-300" : "text-gray-600"}`}
                 style={{ textAlign: "justify" }}
               >
-                Atualmente, estudo Java, JavaScript, HTML e CSS, com foco especial em Java para o desenvolvimento backend. Também tenho interesse em desenvolvimento mobile. 
-                Já participei de projetos como jogos em JavaScript e sistemas de e-commerce, experiências que contribuíram significativamente para o aprimoramento das minhas habilidades técnicas.
-                Possuo bons conhecimentos em HTML5 e CSS3, com atenção especial à criação de interfaces acessíveis, modernas e responsivas.
+                Procuro estar sempre em evolução, participando de cursos complementares e exercitando minhas habilidades em desenvolvimento. Tenho grande interesse em programação, 
+                atuando em aplicações web, mobile e desktop. Além disso, mantenho diversos projetos ativos no GitHub, que refletem meu aprendizado e experiência na área.
               </p>
 
               <div className="grid grid-cols-2 gap-6 mt-8">
