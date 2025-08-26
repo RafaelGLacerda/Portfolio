@@ -52,6 +52,8 @@ export default function Portfolio() {
     { name: "TypeScript", level: 72, category: "Frontend" },
      { name: "Tailwind", level: 79, category: "Frontend" },
     { name: "React", level: 80, category: "Frontend" },
+    { name: "CSS", level: 75, category: "Frontend" },
+     { name: "HTML5", level: 80, category: "Frontend" },
   ]
 
   const projects = [
@@ -66,10 +68,9 @@ export default function Portfolio() {
     },
     {
       title: "Gestão de Negócios",
-      description: "Sistema completo para Gestão de Negócios na parte financeira",
-      tech: ["Next.js", "TypeScript", "OpenRouter"],
-      image: "/icone5.png?height=300&width=400",
-      github: "https://github.com/RafaelGLacerda/chatbot",
+      description: "Sistema completo para gestão de negócios na parte financeira",
+      tech: ["Next.js", "TypeScript", "FireBase"],
+      image: "/manage.png?height=300&width=400",
       demo: "https://assistentechatbotv0.onrender.com/",
       featured: true,
     },
@@ -102,21 +103,11 @@ export default function Portfolio() {
     },
     {
       title: "VooEmbarcar",
-      description: "Sistema real que permite ao usuário a cotação de voos.",
+      description: "Sistema com funcionamento real que permite ao usuário receber a cotação de voos.",
       tech: ["HTML5, CSS, JavaScript"],
       image: "/voo.png?height=300&width=400",
       github: "https://github.com/RafaelGLacerda/vooembarcar",
       demo: "https://vooembarcar.netlify.app/",
-      featured: false,
-    },
-    {
-      title: "Store Project",
-      description:
-        "Plataforma completa de e-commerce com sistema de produtos, carrinho integrados, dashboard demonstrativo com um CSS robusto feito em React.",
-      tech: ["Node.js", "React", "Json"],
-      image: "/store.png",
-      github: "https://github.com/RafaelGLacerda/StoreProject",
-      demo: "https://rafaelglacerda.github.io/StoreProject/",
       featured: false,
     },
     {
@@ -138,8 +129,17 @@ export default function Portfolio() {
       featured: false,
     },
     {
+      title: "Store Project",
+      description: "Plataforma de e-commerce (incompleta).",
+      tech: ["Node.js", "React", "Json"],
+      image: "/store.png",
+      github: "https://github.com/RafaelGLacerda/StoreProject",
+      demo: "https://rafaelglacerda.github.io/StoreProject/",
+      featured: false,
+    },
+    {
       title: "Tasks",
-      description: "Este é um projeto de gerenciamento de tarefas com sistema de login/cadastro.",
+      description: "Sistema para gerenciamento de tarefas/Agenda.",
       tech: ["HTML5, CSS, Node.js"],
       image: "/tasks.png?height=300&width=400",
       github: "https://github.com/RafaelGLacerda/Tasks",
@@ -148,7 +148,7 @@ export default function Portfolio() {
     },
     {
       title: "Movie Library",
-      description: "Um projeto de biblioteca de filmes com interface moderna e funcionalidades de busca, feito com React.",
+      description: "Sistema de biblioteca de filmes.",
       tech: ["HTML5, CSS, Node.js"],
       image: "/movie.png?height=300&width=400",
       github: "https://github.com/RafaelGLacerda/Movies-Library",
