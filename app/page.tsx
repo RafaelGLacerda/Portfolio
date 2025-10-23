@@ -60,12 +60,12 @@ export default function Portfolio() {
     { name: "Deepseek", level: 60, category: "IAs" },
     { name: "v0", level: 90, category: "IAs" },
     { name: "Canva AI", level: 75, category: "IAs" },
-    { name: "Canva", level: 75, category: "Design" },
-    { name: "Lovart", level: 75, category: "Design" },
-    { name: "Piclumen", level: 75, category: "Design" },
-    { name: "Clipchamp", level: 75, category: "Outros" },
-    { name: "Lovable", level: 75, category: "Outros" },
-    { name: "N8N", level: 75, category: "Outros" },
+    { name: "Canva", level: 65, category: "Design" },
+    { name: "Lovart", level: 70, category: "Design" },
+    { name: "Piclumen", level: 60, category: "Design" },
+    { name: "Clipchamp", level: 80, category: "Outros" },
+    { name: "Lovable", level: 70, category: "Outros" },
+    { name: "N8N", level: 60, category: "Outros" },
   ]
 
   const projects = [
