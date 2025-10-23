@@ -84,14 +84,14 @@ export default function Portfolio() {
       title: "L5M",
       description: "Website para Armazenamento de Videos até 5 minutos.",
       tech: ["Next.js", "TypeScript"],
-      image: "/L5M.png0",
+      image: "/L5M.png",
       github: "https://github.com/RafaelGLacerda/L5M", 
       demo: "https://l5m.onrender.com/",
       featured: false,
     }, 
     {
       title: "StoreManager",
-      description: "Website para Gerenciamento Completo de Lojas.",
+      description: "Website para Gerenciamento de Lojas.",
       tech: ["Next.js", "TypeScript"],
       image: "/gestao.png",
       github: "https://github.com/RafaelGLacerda/StoreManager", 
@@ -118,8 +118,8 @@ export default function Portfolio() {
     },
     {
       title: "EasyBusiness",
-      description: "Website de Comércio Virtual que Conecta Pessoas e Empresas.",
-      tech: ["HTML5", "CSS", "JavaScript"],
+      description: "Comércio Virtual que Conecta Pessoas e Empresas.",
+      tech: ["HTML5", "CSS", "JS"],
       image: "/easy.png",
       github: "https://github.com/RafaelGLacerda/EasyBuniness",
       demo: "https://easybuniness.onrender.com/",
@@ -127,7 +127,7 @@ export default function Portfolio() {
     },
      {
       title: "ReciclaSSA",
-      description: "Este é um Site Voltado para o Agendamento de Coletas de Recicláveis.",
+      description: "Website para o Agendamento de Coletas de Recicláveis.",
       tech: ["HTML5, CSS, Node.js"],
       image: "/recicla.png",
       github: "https://github.com/RafaelGLacerda/A3",
@@ -136,7 +136,7 @@ export default function Portfolio() {
     },
     {
       title: "Conversor de Imagem",
-      description: "Website para Converter Imagens em Diferentes Formatos.",
+      description: "Converter Imagens em Diferentes Formatos.",
       tech: ["HTML5, CSS, JS"],
       image: "/conversor.png",
       github: "https://github.com/RafaelGLacerda/ImagemConversor",
@@ -145,7 +145,7 @@ export default function Portfolio() {
     },
     {
       title: "QRcode Pro",
-      description: "Website para Criar e Ler QRcodes e Criar Chaves Pix.",
+      description: "Criar e Ler QRcodes e Criar Chaves Pix.",
       tech: ["HTML5, CSS, JS"],
       image: "/qrcode.png",
       github: "https://github.com/RafaelGLacerda/QRcoder",
@@ -153,12 +153,12 @@ export default function Portfolio() {
       featured: false,
     },
     {
-      title: "Movie Library",
-      description: "Website de Biblioteca de Filmes.",
-      tech: ["HTML5, CSS, Node.js"],
+      title: "CryptoModern",
+      description: "Criptografar e descriptografar Arquivos.",
+      tech: ["HTML5, CSS, JS"],
       image: "/movie.png",
-      github: "https://github.com/RafaelGLacerda/Movies-Library",
-      demo: "https://yourmovielibrary.netlify.app/",
+      github: "https://github.com/RafaelGLacerda/CryptoModern",
+      demo: "https://cryptomodern.netlify.app/",
       featured: false,
     },
   ]
@@ -395,7 +395,7 @@ export default function Portfolio() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {["Frontend", "Backend", "Database"].map((category) => (
+            {["Frontend", "Backend", "Database", "IAs"].map((category) => (
               <Card
                 key={category}
                 className={`${darkMode ? "bg-gray-800 border-gray-700" : "bg-white"} hover:shadow-xl transition-all duration-300`}
