@@ -156,7 +156,7 @@ export default function Portfolio() {
       title: "CryptoModern",
       description: "Criptografar e descriptografar Arquivos.",
       tech: ["HTML5, CSS, JS"],
-      image: "/movie.png",
+      image: "/modern.png",
       github: "https://github.com/RafaelGLacerda/CryptoModern",
       demo: "https://cryptomodern.netlify.app/",
       featured: false,
