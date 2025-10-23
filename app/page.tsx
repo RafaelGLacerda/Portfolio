@@ -57,9 +57,15 @@ export default function Portfolio() {
      { name: "HTML5", level: 80, category: "Frontend" },
     { name: "ChatGPT", level: 100, category: "IAs" },
     { name: "Gemini", level: 90, category: "IAs" },
-    { name: "N8N", level: 60, category: "IAs" },
+    { name: "Deepseek", level: 60, category: "IAs" },
     { name: "v0", level: 90, category: "IAs" },
     { name: "Canva AI", level: 75, category: "IAs" },
+    { name: "Canva", level: 75, category: "Design" },
+    { name: "Lovart", level: 75, category: "Design" },
+    { name: "Piclumen", level: 75, category: "Design" },
+    { name: "Clipchamp", level: 75, category: "Outros" },
+    { name: "Lovable", level: 75, category: "Outros" },
+    { name: "N8N", level: 75, category: "Outros" },
   ]
 
   const projects = [
@@ -109,7 +115,7 @@ export default function Portfolio() {
     },
     {
       title: "VooEmbarcar",
-      description: "Landing page que Permite ao Usuário Receber a Cotação de Voos.",
+      description: "Landing page para Cotação de Voos.",
       tech: ["HTML5, CSS, JS"],
       image: "/voo.png",
       github: "https://github.com/RafaelGLacerda/vooembarcar",
@@ -395,7 +401,7 @@ export default function Portfolio() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {["Frontend", "Backend", "Database", "IAs"].map((category) => (
+            {["Frontend", "Backend", "Database", "IAs", "Design", "Outros"].map((category) => (
               <Card
                 key={category}
                 className={`${darkMode ? "bg-gray-800 border-gray-700" : "bg-white"} hover:shadow-xl transition-all duration-300`}
