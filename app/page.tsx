@@ -374,17 +374,17 @@ export default function Portfolio() {
                 {
                   icon: <Code className="w-5 h-5" />,
                   title: "Desenvolvimento Frontend",
-                  desc: "React, Node.js, JavaScript, TypeScript, CSS, TailWind, HTML5",
+                  desc: "React, TypeScript, CSS, TailWind, HTML5, UI/UX Design, Vite",
                 },
                 {
                   icon: <Briefcase className="w-5 h-5" />,
                   title: "Desenvolvimento Backend",
-                  desc: "Node.js, Python, APIs, Postman, Java",
+                  desc: "Node.js, Express, Python, APIs REST/GraphQL, PostgreSQL, MongoDB",
                 },
                 {
                   icon: <GraduationCap className="w-5 h-5" />,
                   title: "Desenvolvimento Full-Stack",
-                  desc: "React, TypeScript, CI/CD, Node.js, QA, TailWind",
+                  desc: "Integração entre Frontend e Backend, Testes (QA), CI/CD, GitHub Actions, Deploy em Vercel/Render",
                 },
               ].map((item, index) => (
                 <Card
