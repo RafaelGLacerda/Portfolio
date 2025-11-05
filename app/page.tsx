@@ -106,7 +106,7 @@ export default function Portfolio() {
     {
       title: "VooEmbarcar",
       description: "Landing page para Cotação de Voos.",
-      tech: ["HTML5, CSS3, JS"],
+      tech: ["HTML5", "CSS3", "JS"],
       image: "/voo.png",
       github: "https://github.com/RafaelGLacerda/vooembarcar",
       demo: "https://vooembarcar.netlify.app/",
@@ -151,7 +151,7 @@ export default function Portfolio() {
      {
       title: "ReciclaSSA",
       description: "Website para o Agendamento de Coletas de Recicláveis.",
-      tech: ["HTML5, CSS3, Node.js"],
+      tech: ["HTML5", "CSS3", "JS"],
       image: "/recicla.png",
       github: "https://github.com/RafaelGLacerda/A3",
       demo: "https://reciclassa.onrender.com/",
@@ -160,7 +160,7 @@ export default function Portfolio() {
     {
       title: "Conversor de Imagem",
       description: "Converter Imagens em Diferentes Formatos.",
-      tech: ["HTML5, CSS3, JS"],
+      tech: ["HTML5", "CSS3", "JS"],
       image: "/conversor.png",
       github: "https://github.com/RafaelGLacerda/ImagemConversor",
       demo: "https://imagemconversor.netlify.app/",
@@ -169,7 +169,7 @@ export default function Portfolio() {
     {
       title: "QRcode Pro",
       description: "Criar e Ler QRcodes e Criar Chaves Pix.",
-      tech: ["HTML5, CSS3, JS"],
+      tech: ["HTML5", "CSS3", "JS"],
       image: "/qrcode.png",
       github: "https://github.com/RafaelGLacerda/QRcoder",
       demo: "https://qrcodesgerador.netlify.app/",
@@ -178,7 +178,7 @@ export default function Portfolio() {
     {
       title: "CryptoModern",
       description: "Criptografar e descriptografar Arquivos.",
-      tech: ["HTML5, CSS3, JS"],
+      tech: ["HTML5", "CSS3", "JS"],
       image: "/modern.png",
       github: "https://github.com/RafaelGLacerda/CryptoModern",
       demo: "https://cryptomodern.netlify.app/",
