@@ -109,7 +109,7 @@ export default function Portfolio() {
       tech: ["HTML5", "CSS3", "JS"],
       image: "/voo.png",
       github: "https://github.com/RafaelGLacerda/vooembarcar",
-      demo: "https://vooembarcar..app/",
+      demo: "https://vooembarcar.onrender.com/",
       featured: false,
     },
     {
@@ -118,7 +118,7 @@ export default function Portfolio() {
       tech: ["Next.js", "TypeScript", "Tailwind"],
       image: "/chess.png",
       github: "https://github.com/RafaelGLacerda/Chess",
-      demo: "https://commonchess..app/",
+      demo: "https://commonchess.onrender.com/",
       featured: false,
     },
     {
@@ -163,7 +163,7 @@ export default function Portfolio() {
       tech: ["HTML5", "CSS3", "JS"],
       image: "/conversor.png",
       github: "https://github.com/RafaelGLacerda/ImagemConversor",
-      demo: "https://imagemconversor.netlify.app/",
+      demo: "https://imagemconversor.onrender.com/",
       featured: false,
     },
     {
@@ -172,7 +172,7 @@ export default function Portfolio() {
       tech: ["HTML5", "CSS3", "JS"],
       image: "/qrcode.png",
       github: "https://github.com/RafaelGLacerda/QRcoder",
-      demo: "https://qrcodesgerador.netlify.app/",
+      demo: "https://qrcodesgerador.onrender.com/",
       featured: false,
     },
     {
@@ -181,7 +181,7 @@ export default function Portfolio() {
       tech: ["HTML5", "CSS3", "JS"],
       image: "/modern.png",
       github: "https://github.com/RafaelGLacerda/CryptoModern",
-      demo: "https://cryptomodern.netlify.app/",
+      demo: "https://cryptomodern.onrender.com/",
       featured: false,
     },
   ]
@@ -206,7 +206,7 @@ export default function Portfolio() {
           <div className="flex justify-between items-center h-16">
             <div className="font-bold text-xl">
               <span className={`${darkMode ? "text-white" : "text-gray-900"}`}>RafaelLacerda</span>
-              <span className="text-blue-600">.onrender.com</span>
+              <span className="text-blue-600">.vercel.app</span>
             </div>
 
             <div className="hidden md:flex space-x-8">
