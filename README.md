@@ -25,11 +25,4 @@ O portfólio foi criado com foco em design responsivo, performance e clareza de 
 - [Netlify](https://www.netlify.com/) (deploy)
 - CSS Modules / Tailwind / Styled Components
 
----
 
-## 🚀 Como rodar localmente
-
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/RafaelGLacerda/Portfolio.git
