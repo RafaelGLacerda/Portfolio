@@ -109,7 +109,7 @@ export default function Portfolio() {
       tech: ["HTML5", "CSS3", "JS"],
       image: "/voo.png",
       github: "https://github.com/RafaelGLacerda/vooembarcar",
-      demo: "https://vooembarcar.netlify.app/",
+      demo: "https://vooembarcar..app/",
       featured: false,
     },
     {
@@ -118,7 +118,7 @@ export default function Portfolio() {
       tech: ["Next.js", "TypeScript", "Tailwind"],
       image: "/chess.png",
       github: "https://github.com/RafaelGLacerda/Chess",
-      demo: "https://commonchess.netlify.app/",
+      demo: "https://commonchess..app/",
       featured: false,
     },
     {
@@ -206,7 +206,7 @@ export default function Portfolio() {
           <div className="flex justify-between items-center h-16">
             <div className="font-bold text-xl">
               <span className={`${darkMode ? "text-white" : "text-gray-900"}`}>RafaelLacerda</span>
-              <span className="text-blue-600">.netlify.app</span>
+              <span className="text-blue-600">.onrender.com</span>
             </div>
 
             <div className="hidden md:flex space-x-8">
