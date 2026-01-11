@@ -2,7 +2,7 @@
 
 Este é o repositório do meu portfólio pessoal, desenvolvido com o objetivo de apresentar meus projetos, habilidades e experiências como desenvolvedor. O site é uma vitrine do meu trabalho e está hospedado em:
 
-🔗 **Acesse o site**: https://rafaellacerda.onrender.com/
+🔗 **Acesse o site**: https://rafaellacerda.vercel.app/
 
 ---
 
