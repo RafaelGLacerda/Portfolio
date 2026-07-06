@@ -1,14 +1,22 @@
-import { Boxes, Code2, FlaskConical, Layers, Terminal } from 'lucide-react'
+import {
+  Boxes,
+  BrainCircuit,
+  Code2,
+  Database,
+  FlaskConical,
+  ServerCog,
+} from 'lucide-react'
 import { Reveal } from '@/components/reveal'
 import { SectionHeading } from '@/components/section-heading'
 import { skillGroups } from '@/lib/data'
 
 const icons: Record<string, React.ElementType> = {
   Frontend: Code2,
-  Backend: Terminal,
+  Backend: ServerCog,
+  Databases: Database,
   'Testing & QA': FlaskConical,
-  'DevOps & Tools': Layers,
-  Other: Boxes,
+  'AI & Developer Tools': BrainCircuit,
+  'DevOps & Environment': Boxes,
 }
 
 export function Skills() {
@@ -20,13 +28,14 @@ export function Skills() {
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <SectionHeading
           eyebrow="Skills"
-          title="Technologies I work with"
-          description="A pragmatic full-stack toolkit focused on modern, maintainable web development."
+          title="Technologies & Tools"
+          description="A modern full-stack toolkit built around scalable web development, testing, cloud deployment, AI-assisted workflows, and production-ready applications."
         />
 
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {skillGroups.map((group, i) => {
             const Icon = icons[group.category] ?? Boxes
+
             return (
               <Reveal
                 key={group.category}
@@ -38,10 +47,12 @@ export function Skills() {
                     <span className="flex size-10 items-center justify-center rounded-xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
                       <Icon className="size-5" />
                     </span>
+
                     <h3 className="font-display text-lg font-semibold">
                       {group.category}
                     </h3>
                   </div>
+
                   <ul className="mt-5 flex flex-wrap gap-2">
                     {group.skills.map((skill) => (
                       <li
